@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+         CSS Layout
+    </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+ 
+        .header {
+            background-color: pink;
+            padding: 15px;
+            text-align: center;
+        }
+ 
+        .nav_menu {
+            overflow: hidden;
+            background-color: #333;
+        }
+ 
+        .nav_menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        .nav_menu a:hover {
+            background-color: white;
+            color: green;
+        }
+ 
+        .columnA,
+        .columnB,
+        .columnC {
+            float: left;
+            width: 31%;
+            padding: 15px;
+            text-align: justify;
+        }
+ 
+        h2 {
+            color: red;
+            text-align: center;
+        }
+ 
+        @media screen and (max-width:600px) {
+ 
+            .columnA,
+            .columnB,
+            .columnC {
+                width: 50%;
+            }
+        }
+ 
+        @media screen and (max-width:400px) {
+ 
+            .columnA,
+            .columnB,
+            .columnC {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <!-- header of website layout -->
+    <div class="header">
+        <h2 style="color:black;font-size:200%">
+            ICECREAM
+        </h2>
+    </div>
+ 
+    <!-- navigation menu of website layout -->
+    <div class="nav_menu">
+        <a href="#">Chocolate</a>
+        <a href="#">vennila</a>
+        <a href="#">strawberry</a>
+    </div>
+ 
+    <!-- Content section of website layout -->
+    <div class="row">
+ 
+        <div class="columnA">
+            <h2>Chocolate</h2>
+ 
+            <p>
+                 I had been getting recipe requests for adding ice creams since a long time. So, I worked on a few of them and to be honest, this Chocolate Ice Cream recipe was a personal favorite. Not just that, even at home everyone loves it.
+
+This Chocolate Ice Cream does not need a special ice cream maker and gets done without getting whipped twice or thrice.  
+
+ 
+            </p>
+ 
+        </div>
+ 
+        <div class="columnB">
+            <h2>Vennila</h2>
+ 
+            <p>
+                 
+One in five vanilla ice-creams have no vanilla, cream or ...
+Vanilla ice-cream is traditionally made from fresh milk, cream, egg yolks, sugar and vanilla, which are frozen and aerated. In a number of the products Which? looked at, cream and milk were substituted with partially reconstituted dried skimmed milk, and in some cases, whey protein.
+ 
+            </p>
+ 
+        </div>
+ 
+        <div class="columnC">
+            <h2>Strawberry </h2>
+ 
+ 
+ 
+            <p>
+                 Best way to enjoy them apart from popping in raw is to make this creamy and oh-so-delish Strawberry Ice Cream. This Strawberry Ice Cream recipe is really easy to make, uses just 4 ingredients and gets done sans an ice cream maker.
+
+strawberry ice cream scoops served on a plate with fresh strawberry pieces.
+ 
+            </p>
+ 
+        </div>
+    </div>
+</body>
+ 
+</html>
+<html>
+ 
+<head>
+    <title>
+        CSS Layout
+    </title>
+ 
+    <style>
+  
+        .footer {
+            background-color: pink;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+ 
+<body>
+<br>
+    <center style="font-size:200%;">
+        Everyone's Favoo!!
+    </center>
+ 
+    <!-- footer Section -->
+    <div class="footer">
+        <a href="https://youtu.be/mQU_LMrf0Os?feature=shared">icecream making!</a><br>
+    </div>
+</body>
+ 
+</html>
